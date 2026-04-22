@@ -48,7 +48,7 @@ Una vez instalado python (3.10), tienen que ir a Visual Studio Code y en la term
 - Hardware:
     Exequiel Naessens, Francisco Marazza, Matias Vigo
 - Scrum Master:
-    Rosario 
+    Rosario Ocampo
 
 ## Estado
 - Funcionalidades basicas como deteccion y descripcion de objetos basicos, peligro de proximidad y direccion (izquierda, centro, derecha)
