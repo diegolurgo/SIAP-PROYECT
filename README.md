@@ -26,6 +26,20 @@ Proyecto de visión artificial hecho para personas con discapacidad visual  que 
 - git clone https://github.com/diegolurgo/SIAP-PROYECT.git
 - cd SIAP-PROYECT
 - PIP INSTALL -r requirements.txt
+## como crear un entorno virtual
+Primero deben entrar dentro de Visual studio code y dentro del archivo .py del codigo una vez instalado python(3.10), y ejecutar esta serie de comandos.
+- python -m venv siap-env
+- siap-env\Scripts\Activate.ps1
+deberian ver algo asi '(siap-env) C:\Users\diego\Desktop\SIAP>'
+
+## como instalar las dependencias
+Una vez instalado python (3.10), tienen que ir a Visual Studio Code y en la terminal dentro de env (entorno virtual), ejecutan cada uno de estos comandos
+
+- pip install ultralytics
+- pip install opencv-python
+- pip install pyttsx3
+- pip install torch
+- pip install numpy
 
 ## Integrantes 
 
