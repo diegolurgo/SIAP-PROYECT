@@ -14,6 +14,11 @@ Proyecto de visión artificial hecho para personas con discapacidad visual  que 
 - S - Detener
 - Q - Salir
 
+## librerias internas de python
+- Time
+- Threading
+- queue
+
 ## Tecnologías
 - Python (Version 3.10)
 - OpenCV 
@@ -21,11 +26,6 @@ Proyecto de visión artificial hecho para personas con discapacidad visual  que 
 - YOLOv8 (Ultralytics)
 - pyttsx3
 
-## como instalar y usar
-
-- git clone https://github.com/diegolurgo/SIAP-PROYECT.git
-- cd SIAP-PROYECT
-- PIP INSTALL -r requirements.txt
 ## como crear un entorno virtual
 Primero deben entrar dentro de Visual studio code y dentro del archivo .py del codigo una vez instalado python(3.10), y ejecutar esta serie de comandos.
 - python -m venv siap-env
@@ -44,22 +44,14 @@ Una vez instalado python (3.10), tienen que ir a Visual Studio Code y en la term
 ## Integrantes 
 
 - DEVS:
-    Lurgo Diego Andres
-    Santiago Mamani
+    Lurgo Diego Andres, Santiago Mamani
 - Hardware:
-    Exequiel Naessens
-    Francisco Marazza
-    Matias Vigo
+    Exequiel Naessens, Francisco Marazza, Matias Vigo
 - Scrum Master:
     Rosario 
 
-## librerias internas de python
-- Time
-- Threading
-- queue
-
 ## Estado
-- Funcionalidades basicas como deteccion y descripcion de objetos basicos, peligro de proximidad y direccion (izquierd, centro, derecha)
+- Funcionalidades basicas como deteccion y descripcion de objetos basicos, peligro de proximidad y direccion (izquierda, centro, derecha)
 
 ## Recomendaciones
 - Usar y descargar todo en un entorno virtual (env)
