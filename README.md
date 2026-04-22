@@ -1,6 +1,6 @@
 # SIAP - Sistema Inteligente Asistente Perceptivo
 
-Proyecto de visión artificial que detecta objetos en tiempo real y los describe mediante voz.
+Proyecto de visión artificial hecho para personas con discapacidad visual  que detecta objetos en tiempo real y los describe mediante voz.
 
 ## Funcionalidades
 - Detección de objetos con YOLOv8
@@ -17,8 +17,27 @@ Proyecto de visión artificial que detecta objetos en tiempo real y los describe
 ## Tecnologías
 - Python (Version 3.10)
 - OpenCV 
+- pytorch
 - YOLOv8 (Ultralytics)
 - pyttsx3
+
+## como instalar y usar
+
+- git clone https://github.com/diegolurgo/SIAP-PROYECT.git
+- cd SIAP-PROYECT
+- PIP INSTALL -r requirements.txt
+
+## Integrantes 
+
+- DEVS:
+    Lurgo Diego Andres
+    Santiago Mamani
+- Hardware:
+    Exequiel Naessens
+    Francisco Marazza
+    Matias Vigo
+- Scrum Master:
+    Rosario 
 
 ## librerias internas de python
 - Time
