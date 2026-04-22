@@ -59,17 +59,17 @@ while True:
     
     #esto es el escaneo
     if escanear and frame_count % 2 == 0:
-        results = model(frame, conf = 0.3)
+        results = model(frame, conf = 0.3) #esto es para que escanee y cuente los frames, conf es para optimizar
         
         objetos_detectados = []
         
         for result in results:
             for box in result.boxes:
-                cls = int(box.cls[0])
+                cls = int(box.cls[0]) #esto es lo que detecta y lo manda a resultados
                 label = model.names[cls]
                 #esto es para direccion 
-                if label in ["person", "chair", "dining table", "bottle", "cell phone", "dog", "cat"]:
-                    x1, y1, x2, y2 = box.xyxy[0].tolist()
+                if label in ["person", "chair", "dining table", "bottle", "cell phone", "dog", "cat"]: #estos son los objetos que puede detectar
+                    x1, y1, x2, y2 = box.xyxy[0].tolist() #estas son las direcciones que detecta
                     centro_x = (x1 + x2) / 2
                     area = (x2 - x1) * (y2 - y1)
                     ancho = frame.shape[1]
@@ -92,7 +92,7 @@ while True:
                     if posicion == "centro" and distancia == "cerca":
                         peligro_detectado = True
                     #traduccion
-                    traducciones = {
+                    traducciones = { #esto es mera traduccion, no mucho mas
                         "person" : "persona",
                         "chair" : "silla",
                         "dining table" : "mesa",
@@ -112,7 +112,7 @@ while True:
 
         #esta es la prioridad
         
-        objetos_detectados.sort(key = lambda x: 0 if "persona" in x else 1)
+        objetos_detectados.sort(key = lambda x: 0 if "persona" in x else 1) 
         objetos_detectados = objetos_detectados[:2]
         
         #aqui habla
@@ -149,4 +149,4 @@ while True:
     time.sleep(0.01)
     
 cap.release()
-cv2.destroyAllWindows()
+cv2.destroyAllWindows() #esto cierra todos los procesos de cv2 que esten usandose en windows para no dejar procesos activos
