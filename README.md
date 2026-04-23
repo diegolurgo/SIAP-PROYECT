@@ -61,6 +61,7 @@ Los testeos del proyectos se realizaran durante y al final de cada sprint, de es
 - Llevate bien con tus companieros de equipo
 - Comunicate siempre, si no entiendes algo, alguien te ayudara
 - Trabaja en equipo, no estas solo
+- consulta siempre los cambios y actualiza a tu equipo
 
 ## Integrantes del proyecto
 
