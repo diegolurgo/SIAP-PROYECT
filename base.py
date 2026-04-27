@@ -1,9 +1,9 @@
 from ultralytics import YOLO #esta es nuestra base de todo
 import cv2 #vision por computadora
-import pyttsx3
-import time
-import threading
-import queue
+import pyttsx3 #texto a voz
+import time #tiempo de espera
+import threading #estos son vectores por asi decirlo
+import queue #esto es la cola de espera por cada palabra
 
 escanear = False #esto escanea el entorno
 
