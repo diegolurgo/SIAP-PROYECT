@@ -76,7 +76,7 @@ HARDWARE DEVS:
 - Francisco Marazza
 - Matias Vigo
 
-SCRUM MASTER:
+SCRUM MASTER / PRODUCT OWNER:
 
 - Rosario Ocampo
 
